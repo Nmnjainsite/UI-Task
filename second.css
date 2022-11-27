@@ -1,0 +1,16 @@
+/* .path {
+  background: transparent url("img/Bitmap.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+} */
+
+.second {
+  margin-left: 8%;
+  padding: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+  .second {
+    margin-left: 0%;
+    padding: 1.5rem;
+  }
+}
