@@ -4,7 +4,7 @@
   letter-spacing: 0px;
   color: #2d83ee;
   opacity: 1;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .second {
@@ -29,7 +29,7 @@
 
 .list-item {
   border: 1px solid #2d83ee;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 0.3rem;
   box-shadow: 0px 32px 64px #3914000a;
 }
@@ -37,7 +37,7 @@
 .highlight-list {
   background: #4a4bee 0% 0% no-repeat padding-box;
   box-shadow: 0px 32px 64px #3914000a;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 0.3rem;
   opacity: 1;
   color: #ffffff;
@@ -89,10 +89,8 @@
   color: #2d83ee;
   cursor: pointer;
   transition: 0.3s;
-  position: absolute;
-  bottom: 0rem;
-  left: 33%;
-  padding: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .read-more-2:hover {
@@ -193,7 +191,7 @@
   font-size: 0.9rem;
   border: none;
   transition: 0.3s;
-  margin-top: 4rem;
+  margin-top: 15%;
 }
 
 .apply-btn:hover {
@@ -276,6 +274,14 @@
   position: relative;
   transition: 0.3s;
   z-index: 2;
+}
+
+.card-1 {
+  box-shadow: 5px 5px 15px #00000029;
+  border: 1px solid #2d83ee;
+  border-radius: 15px;
+  margin: 1rem;
+  padding: 0.5rem;
 }
 
 .btn {

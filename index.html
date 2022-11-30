@@ -30,67 +30,87 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  style="color: #ffff"
-                >
-                  Add Services
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#"
-                  style="color: #ffff"
-                  >Pricing</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: #ffff">Blogs</a>
-              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <div class="d-flex" role="search">
+              <div class="d-flex-col-1">
+                <li class="nav-item dropdown">
+                  <span class="nav-content">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      style="color: #ffff"
+                    >
+                      Add Services
+                    </a>
+                  </span>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <span class="nav-content">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#"
+                      style="color: #ffff"
+                      >Pricing</a
+                    ></span
+                  >
+                </li>
+                <li class="nav-item">
+                  <span class="nav-content">
+                    <a class="nav-link" href="#" style="color: #ffff"
+                      >Blogs</a
+                    ></span
+                  >
+                </li>
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  style="color: #ffff"
-                >
-                  Resources
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <button class="btn-primary">Porfolio</button>
-              <button class="btn-primary" style="margin-left: 5%">
+                <li class="nav-item dropdown">
+                  <span class="nav-content">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      style="color: #ffff"
+                    >
+                      Resources
+                    </a></span
+                  >
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+
+              <button type="button" class="btn-primary">Portfolio</button>
+              <button
+                type="button"
+                class="btn-primary"
+                style="margin-left: 0.5rem"
+              >
                 Request An Audit
               </button>
-            </form>
+            </div>
           </div>
         </div>
       </nav>
@@ -112,9 +132,9 @@
           src="JSON/81943.json"
           background="transparent"
           speed="1"
-          style="width: 396px; height: 534px; opacity: 1"
         ></lottie-player>
       </div>
+
       <div class="typography-2">
         <span>
           <span class="bold-txt">$12.8B</span>
@@ -141,25 +161,24 @@
         <p style="color: #2d83ee">CLIENTS</p>
         <p style="color: #391400">Partners</p>
         <div>
-          <span class="path">PATHFUND</span>
+          <span class="path"> PATHFUND</span>
           <span class="path">PATHFUND</span>
           <span class="path">PATHFUND</span>
           <span class="path">PATHFUND</span>
           <span class="path">PATHFUND</span>
           <span class="path">PATHFUND</span>
         </div>
-        <div class="text">
+        <div class="text-2">
           <lottie-player
             class="lottie-player"
             src="JSON/21811.json"
             background="transparent"
             speed="1"
-            style="width: 396px; height: 409px"
           ></lottie-player>
-          <div style="margin-top: 1rem">
+          <div class="text-col-2">
             <p style="color: #2d83ee">SERVICE</p>
             <h2 style="color: #391400">Smart Contract Auditing</h2>
-            <p style="color: black; font-size: 1rem; width: 80%">
+            <p class="text-col-3">
               Our Audit Process for smart contract is based on the comprehensive
               approach we follow to investigate the code for security flaws and
               potential vulnerabilities.
@@ -190,8 +209,8 @@
             <button class="btn-primary">Explore</button>
           </div>
         </div>
-        <div class="text">
-          <div style="margin-top: 1rem">
+        <div class="text-2">
+          <div class="text-col-2">
             <p style="color: #2d83ee">SERVICE</p>
             <h2 style="color: #391400">Blockchain Penetration Testing</h2>
             <p style="color: black; font-size: 1rem; width: 80%">
@@ -206,18 +225,16 @@
             src="JSON/19172.json"
             background="transparent"
             speed="1"
-            style="width: 356px; height: 356px; margin-top: 1rem"
           ></lottie-player>
         </div>
-        <div class="text">
+        <div class="text-2">
           <lottie-player
             class="lottie-player"
             src="JSON/92805.json"
             background="transparent"
             speed="1"
-            style="width: 471px; height: 471px"
           ></lottie-player>
-          <div>
+          <div class="text-col-2">
             <p style="color: #2d83ee">SERVICE</p>
             <h2 style="color: #391400">Due Diligence</h2>
             <p style="color: black; font-size: 1rem; width: 80%">
@@ -275,12 +292,7 @@
         <div class="carousel-inner">
           <div
             class="carousel-item active"
-            style="
-              width: 80%;
-              display: grid;
-              grid-template-columns: repeat(3, 1fr);
-              margin-left: 11%;
-            "
+            style="display: flex; justify-content: center; margin: 1rem"
           >
             <div style="width: 350px">
               <img src="book.png" class="d-block w-100" alt="..." />
@@ -321,12 +333,7 @@
           </div>
           <div
             class="carousel-item"
-            style="
-              width: 80%;
-              display: grid;
-              grid-template-columns: repeat(3, 1fr);
-              margin-left: 11%;
-            "
+            style="display: flex; justify-content: center"
           >
             <div style="width: 350px">
               <img
@@ -372,12 +379,7 @@
           </div>
           <div
             class="carousel-item"
-            style="
-              width: 80%;
-              display: grid;
-              grid-template-columns: repeat(3, 1fr);
-              margin-left: 11%;
-            "
+            style="display: flex; justify-content: center"
           >
             <div style="width: 350px">
               <img src="book.png" class="d-block w-100" alt="..." />
@@ -516,15 +518,7 @@
 
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div
-            class="card h-100"
-            style="
-              padding: 1rem;
-              box-shadow: 5px 5px 15px #00000029;
-              border: 1px solid #2d83ee;
-              border-radius: 15px;
-            "
-          >
+          <div class="card-1 h-100">
             <img
               src="https://blockchain-expo.com/northamerica/wp-content/uploads/2019/10/ctofficial-1280x720.png"
               class="card-img-top"
@@ -536,15 +530,7 @@
           </div>
         </div>
         <div class="col">
-          <div
-            class="card h-100"
-            style="
-              padding: 1rem;
-              box-shadow: 5px 5px 15px #00000029;
-              border: 1px solid #2d83ee;
-              border-radius: 15px;
-            "
-          >
+          <div class="card-1 h-100">
             <img
               src="https://www.vectorlogo.zone/logos/producthunt/producthunt-ar21.png"
               class="card-img-top"
@@ -556,15 +542,7 @@
           </div>
         </div>
         <div class="col">
-          <div
-            class="card h-100"
-            style="
-              padding: 1rem;
-              box-shadow: 5px 5px 15px #00000029;
-              border: 1px solid #2d83ee;
-              border-radius: 15px;
-            "
-          >
+          <div class="card-1 h-100">
             <img src="assets/money.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="read-more-2">Read More</h5>
@@ -572,15 +550,7 @@
           </div>
         </div>
         <div class="col">
-          <div
-            class="card h-100"
-            style="
-              padding: 1rem;
-              box-shadow: 5px 5px 15px #00000029;
-              border: 1px solid #2d83ee;
-              border-radius: 15px;
-            "
-          >
+          <div class="card-1 h-100">
             <img src="assets/crunch.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="read-more-2">Read More</h5>
@@ -588,20 +558,12 @@
           </div>
         </div>
         <div class="col">
-          <div
-            class="card h-100"
-            style="
-              padding: 1rem;
-              box-shadow: 5px 5px 15px #00000029;
-              border: 1px solid #2d83ee;
-              border-radius: 15px;
-            "
-          >
+          <div class="card-1 h-100">
             <img
               src="assets/hackeron.png"
               class="card-img-top"
               alt="..."
-              style="display: flex; margin-top: 4rem; padding: 1rem"
+              style="display: flex; margin-top: 20%; padding: 1rem"
             />
 
             <div class="card-body">
@@ -610,20 +572,12 @@
           </div>
         </div>
         <div class="col">
-          <div
-            class="card h-100"
-            style="
-              padding: 1rem;
-              box-shadow: 5px 5px 15px #00000029;
-              border: 1px solid #2d83ee;
-              border-radius: 15px;
-            "
-          >
+          <div class="card-1 h-100">
             <img
               src="assets/Invest.png"
               class="card-img-top"
               alt="..."
-              style="display: flex; margin-top: 4rem; padding: 1rem"
+              style="display: flex; margin-top: 20%; padding: 1rem"
             />
             <div class="card-body">
               <h5 class="read-more-2">Read More</h5>
@@ -729,27 +683,20 @@
           <li class="faq-box-col-2">
             <p style="font-weight: bold; color: #391400">
               What is smart contract security?
-              <a
-                style="float: right; border: none"
-                data-bs-toggle="collapse"
-                href="#collapseExample"
-                role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
+
+              <svg
+                style="float: right; color: #2d83ee"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-caret-up-square-fill"
+                viewBox="0 0 16 16"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-caret-up-square-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 9h8a.5.5 0 0 0 .374-.832l-4-4.5a.5.5 0 0 0-.748 0l-4 4.5A.5.5 0 0 0 4 11z"
-                  />
-                </svg>
-              </a>
+                <path
+                  d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 9h8a.5.5 0 0 0 .374-.832l-4-4.5a.5.5 0 0 0-.748 0l-4 4.5A.5.5 0 0 0 4 11z"
+                />
+              </svg>
             </p>
 
             Smart Contract Security is a set of best practices to identify bugs
@@ -757,7 +704,7 @@
             These loopholes have lead to huge financial losses recently.
           </li>
 
-          <div class="collapse" id="collapseExample" style="width: 100%">
+          <div style="width: 100%">
             <li class="faq-box-col-2">
               Are smart contracts vulnerable?
               <svg
@@ -828,7 +775,7 @@
       </div>
 
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col" style="padding: 1rem">
+        <div class="col" style="padding: 2.5%">
           <div class="card h-100">
             <img src="assets/cart.png" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -854,7 +801,7 @@
             </div>
           </div>
         </div>
-        <div class="col" style="padding: 1rem">
+        <div class="col" style="padding: 2.5%">
           <div class="card h-100">
             <img src="assets/cart.png" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -880,7 +827,7 @@
             </div>
           </div>
         </div>
-        <div class="col" style="padding: 1rem">
+        <div class="col" style="padding: 2.5%">
           <div class="card h-100">
             <img src="assets/cart.png" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -957,7 +904,7 @@
 
     <div style="display: flex; justify-content: center">
       <div class="tempelate-card">
-        <div style="padding: 3rem">
+        <div style="padding: 12%">
           <h2 style="color: #ffffff; line-height: 3rem">
             Join Hands With us to secure Web3 Together
           </h2>
