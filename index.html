@@ -11,13 +11,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="second.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <div class="body-container">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <img src="title.png" class="title" />
+          <img src="assets/title.png" class="title" />
           <button
             class="navbar-toggler"
             type="button"
@@ -86,8 +86,8 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <button class="btn">Porfolio</button>
-              <button class="btn" style="margin-left: 5%">
+              <button class="btn-primary">Porfolio</button>
+              <button class="btn-primary" style="margin-left: 5%">
                 Request An Audit
               </button>
             </form>
@@ -109,7 +109,7 @@
 
         <lottie-player
           class="lottie-player"
-          src="81943.json"
+          src="JSON/81943.json"
           background="transparent"
           speed="1"
           style="width: 396px; height: 534px; opacity: 1"
@@ -135,7 +135,7 @@
       </div>
     </div>
 
-    <!-- ------second-page--------- -->
+    <!-- ------second-page------------>
     <div>
       <div class="second">
         <p style="color: #2d83ee">CLIENTS</p>
@@ -151,7 +151,7 @@
         <div class="text">
           <lottie-player
             class="lottie-player"
-            src="21811.json"
+            src="JSON/21811.json"
             background="transparent"
             speed="1"
             style="width: 396px; height: 409px"
@@ -187,7 +187,7 @@
               <li>Solana</li>
               <li>EOS</li>
             </ul>
-            <button class="btn">Explore</button>
+            <button class="btn-primary">Explore</button>
           </div>
         </div>
         <div class="text">
@@ -199,11 +199,11 @@
               blockchain technology comes with a mix-blend of conventional
               pentesting approach and dynamic blockchain analysis.
             </p>
-            <button class="btn">Learn More</button>
+            <button class="btn-primary">Learn More</button>
           </div>
           <lottie-player
             class="lottie-player"
-            src="19172.json"
+            src="JSON/19172.json"
             background="transparent"
             speed="1"
             style="width: 356px; height: 356px; margin-top: 1rem"
@@ -212,7 +212,7 @@
         <div class="text">
           <lottie-player
             class="lottie-player"
-            src="92805.json"
+            src="JSON/92805.json"
             background="transparent"
             speed="1"
             style="width: 471px; height: 471px"
@@ -225,91 +225,45 @@
               contracts, which can lead to many critical possibilities.
             </p>
             <ul style="color: black; font-size: 1.1rem; list-style: none">
-              <li>DeFi Due Diligence</li>
+              <li
+                style="
+                  background: transparent
+                    url('img/628px-Ethereum_logo_2014.svg.png') 0% 0% no-repeat
+                    padding-box;
+                  opacity: 1;
+                "
+              >
+                DeFi Due Diligence
+              </li>
               <li>NFT Due Diligence</li>
               <li>Rug Pull Due Diligence</li>
             </ul>
+            <button class="btn-primary">Explore</button>
           </div>
         </div>
       </div>
-      <p style="color: #2d83ee; text-align: center">SERVICE</p>
+      <p class="read-more">SERVICE</p>
       <h3 style="color: #391400; text-align: center">
         How We Secure Your Web3 Project
       </h3>
-      <img
-        src="bars.png"
-        style="
-          width: 90%;
-          height: 100%;
-          size: 2rem;
-          margin-top: 1rem;
-          margin-left: 6%;
-          margin-bottom: 2rem;
-          text-align: center;
-        "
-      />
+
+      <img src="assets/bars.png" class="bar" />
     </div>
 
     <!-- ------third page -->
     <div class="body-container" style="padding: 1rem">
-      <p style="color: #2d83ee; text-align: center; font-weight: bolder">
-        PORTFOLIO
-      </p>
+      <p class="read-more">PORTFOLIO</p>
       <h3 style="color: #ffffff; text-align: center">Latest Work</h3>
-      <span
-        style="
-          display: flex;
-
-          justify-content: center;
-          padding: 1rem;
-        "
-      >
-        <button
-          type="button"
-          style="
-            background-color: #2d83ee;
-            border-radius: 1.3rem;
-            margin: 0.3rem;
-          "
-          class="btn btn-outline-primary"
-        >
+      <span style="display: flex; justify-content: center; padding: 1rem">
+        <button type="button" class="btn-2 btn-outline-primary">
           Ethereum
         </button>
 
-        <button
-          type="button"
-          style="
-            background: transparent;
-            border: 1px solid #ffffff;
-            border-radius: 1.3rem;
-            margin: 0.3rem;
-          "
-          class="btn btn-outline-secondary"
-        >
+        <button type="button" class="btn-2 btn-outline-secondary">
           Binance SC
         </button>
-        <button
-          type="button"
-          style="
-            background: transparent;
-            border: 1px solid #ffffff;
-            border-radius: 1.3rem;
-            margin: 0.3rem;
-          "
-          class="btn btn-outline-secondary"
-        >
-          NFT
-        </button>
-        <button
-          type="button"
-          style="
-            background: transparent;
-            border: 1px solid #ffffff;
-            border-radius: 1.3rem;
-            margin: 0.3rem;
-          "
-          class="btn btn-outline-secondary"
-        >
+        <button type="button" class="btn-2 btn-outline-secondary">NFT</button>
+        <button type="button" class="btn-2 btn-outline-secondary">
           Solana
         </button>
       </span>
@@ -319,96 +273,148 @@
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
-          <div class="carousel-item active" style="width: 300px">
-            <img src="book.png" class="d-block w-100" alt="..." />
-            <p style="color: #ffffff">StackOS Audit Report</p>
-            <span>
-              <button
-                type="button"
-                style="
-                  background: transparent;
-                  border: 1px solid #ffffff;
-
-                  margin: 0.3rem;
-                "
-                class="btn btn-outline-secondary"
-              >
+          <div
+            class="carousel-item active"
+            style="
+              width: 80%;
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              margin-left: 11%;
+            "
+          >
+            <div style="width: 350px">
+              <img src="book.png" class="d-block w-100" alt="..." />
+              <p style="color: #ffffff; text-align: center">
+                StackOS Audit Report
+              </p>
+              <button type="button" class="btn btn-outline-secondary">
                 View
               </button>
-              <button
-                type="button"
-                style="
-                  background: transparent;
-                  border: 1px solid #ffffff;
-
-                  margin: 0.3rem;
-                "
-                class="btn btn-outline-secondary"
-              >
+              <button type="button" class="btn btn-outline-secondary">
                 Download
-              </button></span
-            >
+              </button>
+            </div>
+            <div class="second-book">
+              <img src="book.png" class="d-block w-100" alt="..." />
+              <p style="color: #ffffff; text-align: center">
+                StackOS Audit Report
+              </p>
+              <button type="button" class="btn btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                Download
+              </button>
+            </div>
+            <div class="third-book">
+              <img src="book.png" class="d-block w-100" alt="..." />
+              <p style="color: #ffffff; text-align: center">
+                StackOS Audit Report
+              </p>
+              <button type="button" class="btn btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                Download
+              </button>
+            </div>
           </div>
-          <div class="carousel-item" style="width: 300px">
-            <img src="book.png" class="d-block w-100" alt="..." />
-            <p style="color: #ffffff">StackOS Audit Report</p>
-            <span>
-              <button
-                type="button"
-                style="
-                  background: transparent;
-                  border: 1px solid #ffffff;
-
-                  margin: 0.3rem;
-                "
-                class="btn btn-outline-secondary"
-              >
+          <div
+            class="carousel-item"
+            style="
+              width: 80%;
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              margin-left: 11%;
+            "
+          >
+            <div style="width: 350px">
+              <img
+                src="book.png"
+                class="d-block w-100"
+                alt="..."
+                width="300px"
+              />
+              <p style="color: #ffffff; text-align: center">
+                StackOS Audit Report
+              </p>
+              <button type="button" class="btn btn-outline-secondary">
                 View
               </button>
-              <button
-                type="button"
-                style="
-                  background: transparent;
-                  border: 1px solid #ffffff;
-
-                  margin: 0.3rem;
-                "
-                class="btn btn-outline-secondary"
-              >
+              <button type="button" class="btn btn-outline-secondary">
                 Download
-              </button></span
-            >
+              </button>
+            </div>
+            <div class="third-book">
+              <img src="book.png" class="d-block w-100" alt="..." />
+              <p style="color: #ffffff; text-align: center">
+                StackOS Audit Report
+              </p>
+              <button type="button" class="btn btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                Download
+              </button>
+            </div>
+            <div class="third-book">
+              <img src="book.png" class="d-block w-100" alt="..." />
+              <p style="color: #ffffff; text-align: center">
+                StackOS Audit Report
+              </p>
+              <button type="button" class="btn btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                Download
+              </button>
+            </div>
           </div>
-          <div class="carousel-item" style="width: 300px">
-            <img src="book.png" class="d-block w-100" alt="..." />
-
-            <p style="color: #ffffff">StackOS Audit Report</p>
-            <span>
-              <button
-                type="button"
-                style="
-                  background: transparent;
-                  border: 1px solid #ffffff;
-
-                  margin: 0.3rem;
-                "
-                class="btn btn-outline-secondary"
-              >
+          <div
+            class="carousel-item"
+            style="
+              width: 80%;
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              margin-left: 11%;
+            "
+          >
+            <div style="width: 350px">
+              <img src="book.png" class="d-block w-100" alt="..." />
+              <p style="color: #ffffff; text-align: center">
+                StackOS Audit Report
+              </p>
+              <button type="button" class="btn btn-outline-secondary">
                 View
               </button>
-              <button
-                type="button"
-                style="
-                  background: transparent;
-                  border: 1px solid #ffffff;
-
-                  margin: 0.3rem;
-                "
-                class="btn btn-outline-secondary"
-              >
+              <button type="button" class="btn btn-outline-secondary">
                 Download
-              </button></span
-            >
+              </button>
+            </div>
+            <div class="third-book">
+              <img src="book.png" class="d-block w-100" alt="..." />
+              <p style="color: #ffffff; text-align: center">
+                StackOS Audit Report
+              </p>
+              <button type="button" class="btn btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                Download
+              </button>
+            </div>
+            <div class="third-book">
+              <img src="book.png" class="d-block w-100" alt="..." />
+              <p style="color: #ffffff; text-align: center">
+                StackOS Audit Report
+              </p>
+              <button type="button" class="btn btn-outline-secondary">
+                View
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                Download
+              </button>
+            </div>
           </div>
         </div>
         <button
@@ -430,6 +436,625 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div style="text-align: center; margin: 1rem">
+        <button type="button" class="btn btn-outline-secondary">Button</button>
+      </div>
+    </div>
+
+    <!-- ---------fourth page--- -->
+    <div class="fourth-page">
+      <div class="text">
+        <div>
+          <p
+            style="
+              font: normal normal medium 16px/32px Jost;
+              letter-spacing: 3px;
+              color: #2d83ee;
+              text-transform: uppercase;
+              opacity: 1;
+            "
+          >
+            WHY ARE WE HERE
+          </p>
+          <h3
+            style="
+              font: normal normal medium 40px/64px Jost;
+              color: #391400;
+              width: 60%;
+              line-height: 2.5rem;
+            "
+          >
+            What is the Need of Smart Contract Audit?
+          </h3>
+          <button class="btn-primary">Talk to an Expert</button>
+        </div>
+        <div>
+          <ul
+            style="
+              color: #2d83ee;
+              list-style: none;
+              font-size: 0.8rem;
+              width: 80%;
+              margin-left: 10%;
+              padding: 1rem;
+            "
+          >
+            <li class="list-item">
+              Smart Contract Audits Build Social Authority
+            </li>
+            <li class="list-item">
+              Only 52.7% of the Exploited Web3 Projects were Audited.
+            </li>
+            <li class="highlight-list">
+              47.3% of the Web3 Hacks in First Half of 2022 were due to Smart
+              Contract Vulnerabilities.
+            </li>
+            <li class="list-item">
+              Helps in Earning Users/Investors Trust for the Product
+            </li>
+            <li class="list-item">
+              Helps in Earning Users/Investors Trust for the Product
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p
+        style="
+          text-align: center;
+          font: normal normal medium 16px/32px Jost;
+          letter-spacing: 4.8px;
+          color: #2d83ee;
+          text-transform: uppercase;
+          opacity: 1;
+        "
+      >
+        MENTIONS
+      </p>
+      <h3 style="text-align: center; color: #391400; padding: 1rem">
+        As Featured In
+      </h3>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div
+            class="card h-100"
+            style="
+              padding: 1rem;
+              box-shadow: 5px 5px 15px #00000029;
+              border: 1px solid #2d83ee;
+              border-radius: 15px;
+            "
+          >
+            <img
+              src="https://blockchain-expo.com/northamerica/wp-content/uploads/2019/10/ctofficial-1280x720.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="read-more-2">Read More</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card h-100"
+            style="
+              padding: 1rem;
+              box-shadow: 5px 5px 15px #00000029;
+              border: 1px solid #2d83ee;
+              border-radius: 15px;
+            "
+          >
+            <img
+              src="https://www.vectorlogo.zone/logos/producthunt/producthunt-ar21.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="read-more-2">Read More</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card h-100"
+            style="
+              padding: 1rem;
+              box-shadow: 5px 5px 15px #00000029;
+              border: 1px solid #2d83ee;
+              border-radius: 15px;
+            "
+          >
+            <img src="assets/money.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="read-more-2">Read More</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card h-100"
+            style="
+              padding: 1rem;
+              box-shadow: 5px 5px 15px #00000029;
+              border: 1px solid #2d83ee;
+              border-radius: 15px;
+            "
+          >
+            <img src="assets/crunch.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="read-more-2">Read More</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card h-100"
+            style="
+              padding: 1rem;
+              box-shadow: 5px 5px 15px #00000029;
+              border: 1px solid #2d83ee;
+              border-radius: 15px;
+            "
+          >
+            <img
+              src="assets/hackeron.png"
+              class="card-img-top"
+              alt="..."
+              style="display: flex; margin-top: 4rem; padding: 1rem"
+            />
+
+            <div class="card-body">
+              <h5 class="read-more-2">Read More</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card h-100"
+            style="
+              padding: 1rem;
+              box-shadow: 5px 5px 15px #00000029;
+              border: 1px solid #2d83ee;
+              border-radius: 15px;
+            "
+          >
+            <img
+              src="assets/Invest.png"
+              class="card-img-top"
+              alt="..."
+              style="display: flex; margin-top: 4rem; padding: 1rem"
+            />
+            <div class="card-body">
+              <h5 class="read-more-2">Read More</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------fifth page----- -->
+
+    <div class="fifth-page">
+      <p
+        style="
+          font: normal normal medium 16px/32px Jost;
+          letter-spacing: 3px;
+          color: #2d83ee;
+          text-transform: uppercase;
+          opacity: 1;
+        "
+      >
+        TESTIMONIALS
+      </p>
+      <div style="display: flex">
+        <h3
+          style="
+            text-align: left;
+            font: normal normal medium 40px/64px Jost;
+            letter-spacing: -0.71px;
+            color: #391400;
+            opacity: 1;
+            flex-grow: 1;
+          "
+        >
+          What our Clients are saying
+        </h3>
+        <button class="btn-primary">Read More</button>
+      </div>
+      <div class="testimonial-box">
+        <div class="testimonial-col-1">
+          <h4>
+            Stack<span style="color: #000000; font-weight: bold">OS</span>
+          </h4>
+          <p class="testimonial-child-para">
+            Very professional and timed delivery. Also very prompt in responses
+            and queries.
+          </p>
+          <h5 style="color: #391400">Vishnu Korde</h5>
+          <p style="color: #391400">CEO, StackOS</p>
+        </div>
+        <div class="testimonial-col-1">
+          <h4>
+            Stack<span style="color: #000000; font-weight: bold">OS</span>
+          </h4>
+          <p class="testimonial-child-para">
+            Very professional and timed delivery. Also very prompt in responses
+            and queries.
+          </p>
+          <h5 style="color: #391400">Vishnu Korde</h5>
+          <p style="color: #391400">CEO, StackOS</p>
+        </div>
+        <div class="testimonial-col-1">
+          <h4>
+            Stack<span style="color: #000000; font-weight: bold">OS</span>
+          </h4>
+          <p class="testimonial-child-para">
+            Very professional and timed delivery. Also very prompt in responses
+            and queries.
+          </p>
+          <h5 style="color: #391400">Vishnu Korde</h5>
+          <p style="color: #391400">CEO, StackOS</p>
+        </div>
+      </div>
+      <div class="faq-box">
+        <div>
+          <p
+            style="
+              font: normal normal medium 16px/32px Jost;
+              letter-spacing: 3px;
+              color: #2d83ee;
+              text-transform: uppercase;
+              opacity: 1;
+            "
+          >
+            FAQ
+          </p>
+          <h3 style="color: #391400">Frequently Asked Questions</h3>
+          <p
+            style="
+              font: normal normal normal 18px/32px Jost;
+              letter-spacing: 0px;
+              color: #391400;
+              opacity: 1;
+              width: 80%;
+            "
+          >
+            Visit our help center to clear out any second thoughts that you may
+            have regarding our services.
+          </p>
+          <button class="btn-primary">Contact Us</button>
+        </div>
+        <div style="margin-top: 1rem">
+          <li class="faq-box-col-2">
+            <p style="font-weight: bold; color: #391400">
+              What is smart contract security?
+              <a
+                style="float: right; border: none"
+                data-bs-toggle="collapse"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-caret-up-square-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 9h8a.5.5 0 0 0 .374-.832l-4-4.5a.5.5 0 0 0-.748 0l-4 4.5A.5.5 0 0 0 4 11z"
+                  />
+                </svg>
+              </a>
+            </p>
+
+            Smart Contract Security is a set of best practices to identify bugs
+            & vulnerabilities in the code that can lead to security breaches.
+            These loopholes have lead to huge financial losses recently.
+          </li>
+
+          <div class="collapse" id="collapseExample" style="width: 100%">
+            <li class="faq-box-col-2">
+              Are smart contracts vulnerable?
+              <svg
+                style="float: right; color: #2d83ee"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-caret-down-square-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z"
+                />
+              </svg>
+            </li>
+            <li class="faq-box-col-2">
+              What is a smart contract audit?
+              <svg
+                style="float: right; color: #2d83ee"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-caret-down-square-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z"
+                />
+              </svg>
+            </li>
+            <li class="faq-box-col-2">
+              Why do smart contracts fail?
+              <svg
+                style="float: right; color: #2d83ee"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-caret-down-square-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z"
+                />
+              </svg>
+            </li>
+          </div>
+        </div>
+      </div>
+
+      <p
+        style="
+          font: normal normal medium 16px/32px Jost;
+          letter-spacing: 3px;
+          color: #2d83ee;
+          text-transform: uppercase;
+          opacity: 1;
+          margin-top: 2%;
+        "
+      >
+        OUR BLOG
+      </p>
+      <div style="display: flex">
+        <h3 style="color: #391400; flex-grow: 1">Catch up on the news</h3>
+        <button class="btn-primary">Read More</button>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col" style="padding: 1rem">
+          <div class="card h-100">
+            <img src="assets/cart.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title" style="color: #2d83ee">
+                Web3 Security: Classification & Analysis of Web3 Hacks
+              </h5>
+
+              <small
+                class="card-text"
+                style="
+                  display: block;
+                  font: normal normal normal 16px/32px Jost;
+                  letter-spacing: 0px;
+                  color: #391400;
+                  opacity: 1;
+                "
+                >15 Mar, 2023</small
+              >
+              <small class="card-text" style="color: #391400">
+                At every point in time, the internet keeps changing dimensions
+                to solve the shortcoming of the previous version.
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 1rem">
+          <div class="card h-100">
+            <img src="assets/cart.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title" style="color: #2d83ee">
+                Web3 Security: Classification & Analysis of Web3 Hacks
+              </h5>
+
+              <small
+                class="card-text"
+                style="
+                  display: block;
+                  font: normal normal normal 16px/32px Jost;
+                  letter-spacing: 0px;
+                  color: #391400;
+                  opacity: 1;
+                "
+                >15 Mar, 2023</small
+              >
+              <small class="card-text" style="color: #391400">
+                At every point in time, the internet keeps changing dimensions
+                to solve the shortcoming of the previous version.
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 1rem">
+          <div class="card h-100">
+            <img src="assets/cart.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title" style="color: #2d83ee">
+                Web3 Security: Classification & Analysis of Web3 Hacks
+              </h5>
+
+              <small
+                class="card-text"
+                style="
+                  display: block;
+                  font: normal normal normal 16px/32px Jost;
+                  letter-spacing: 0px;
+                  color: #391400;
+                  opacity: 1;
+                "
+                >15 Mar, 2023</small
+              >
+              <small class="card-text" style="color: #391400">
+                At every point in time, the internet keeps changing dimensions
+                to solve the shortcoming of the previous version.
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="horizontal-card">
+      <div style="padding: 2rem">
+        <img src="assets/hashingbits.png" style="width: 60%; margin: 1rem" />
+        <div
+          style="
+            font: normal normal normal 18px/26px Jost;
+            letter-spacing: 0px;
+            color: #ffffff;
+            opacity: 1;
+            padding: 1rem;
+          "
+        >
+          <p>
+            DeFi & NFT Hacks, CTFs, and Blockchain Security Insights Straight to
+            your Inbox.
+          </p>
+          <p style="color: #ffff">
+            Explore our weekly newsletter: HashingBits. Stay updated on
+            everything we’re publishing. Stand a step ahead.
+          </p>
+          <div class="input-group mb-3">
+            <input
+              style="
+                background: #0000004d 0% 0% no-repeat padding-box;
+                border-radius: 16px;
+                opacity: 1;
+              "
+              type="text"
+              class="form-control"
+              placeholder="youremail@gmail.com"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+          <p style="color: #ffff">
+            ✔️ Your email has been successfully registered, headlines will be
+            sent to you soon.
+          </p>
+        </div>
+      </div>
+      <div>
+        <img src="assets/union-light.png" class="horizontal-img" />
+        <img src="assets/union-bold.png" class="horizontal-img" />
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: center">
+      <div class="tempelate-card">
+        <div style="padding: 3rem">
+          <h2 style="color: #ffffff; line-height: 3rem">
+            Join Hands With us to secure Web3 Together
+          </h2>
+          <small style="color: #ffffff"
+            >Help us in our journey to secure web3 by joining our team of
+            talented individuals spread across the globe.</small
+          >
+          <button class="apply-btn">APPLY NOW!</button>
+        </div>
+        <div><img src="assets/join-hands.png" style="width: 80%" /></div>
+      </div>
+    </div>
+    <div style="background: #28293e; padding: 1rem">
+      <footer class="footer-container">
+        <div class="footer-list">
+          <h4 class="footer-list-title">Parent Company</h4>
+          <li>
+            <a href="https://www.quillhash.com/" target="_blank">
+              <img src="assets/quill-hash.png" width="50%"
+            /></a>
+          </li>
+
+          <li style="padding: 0.8rem">
+            Quillhash delivers enterprise grade blockchain technology to leading
+            companies worldwide.
+          </li>
+
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="background: #ffffff; color: #391400"
+            >
+              <img src="assets/istockphoto-486407806-612x612.png" />
+              ENG
+            </button>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <li style="padding: 0.8rem">
+            <img src="assets/index.png" alt="..." />
+            <img src="assets/Flag-China.png" alt="..." style="margin: 0.5rem" />
+          </li>
+        </div>
+
+        <div class="footer-list">
+          <h4 class="footer-list-title">Explore</h4>
+
+          <li class="footer-list-child">Careers</li>
+          <li class="footer-list-child">Courses</li>
+          <li class="footer-list-child">Blockchain Security CTF</li>
+          <li class="footer-list-child">QuillAudits Partner Program</li>
+          <li class="footer-list-child">Referral Program</li>
+        </div>
+
+        <div class="footer-list">
+          <h4 class="footer-list-title">Services</h4>
+          <li class="footer-list-child">Smart Contract Auditing</li>
+          <li class="footer-list-child">Blockchain Pen Testing</li>
+          <li class="footer-list-child">Due Diligence</li>
+        </div>
+
+        <div class="footer-list">
+          <h4 class="footer-list-title">Contact Us</h4>
+          <li>
+            LG 006, DLF Grand Mall, Mehrauli Gurgaon Road, Near Sikanderpur DLF
+            Phase1, Sector 28, Gurugram, Haryana - 122002
+          </li>
+          <li style="padding-top: 0.8rem">contact@quillaudits.com</li>
+        </div>
+      </footer>
+      <h3 style="text-align: center; color: #ffffff">Join our Journey</h3>
+
+      <span class="footer-emoji-list">
+        <img src="assets/fb.png" class="footer-emoji" />
+        <img src="assets/twitter.png" class="footer-emoji" />
+        <img src="assets/linkedin.png" class="footer-emoji" />
+        <img src="assets/ig.png" class="footer-emoji" />
+        <img src="assets/telegram.png" class="footer-emoji" />
+        <img src="assets/reddit.png" class="footer-emoji" />
+        <img src="assets/m.png" class="footer-emoji" />
+        <img src="assets/discord.png" class="footer-emoji" />
+        <img src="assets/yt.png" class="footer-emoji" />
+      </span>
+
+      <hr style="color: lightgrey" />
+
+      <p style="text-align: center; color: #dfdfdf">
+        All Rights Reserved. © Copyright 2022. QuillHash Technologies Private
+        Limited
+      </p>
     </div>
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
