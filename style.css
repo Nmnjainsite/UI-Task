@@ -1,5 +1,5 @@
 .body-container {
-  background: linear-gradient(#15306f, #15306f, #312e81);
+  background: #15306f 0% 0% no-repeat padding-box;
   mix-blend-mode: multiply;
   opacity: 0.8;
   overflow: hidden;
@@ -11,12 +11,12 @@
 
 .d-flex {
   list-style: none;
-  margin-right: 5%;
 }
 
 .nav-link {
   margin: 1rem;
   font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
 .list-box {
@@ -134,7 +134,13 @@
 }
 
 .bold-txt {
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+
+.num-text-typo {
+  color: #ffff;
+  position: relative;
+  top: -0.6rem;
 }
 
 .d-flex-col-1 {
@@ -231,5 +237,10 @@
   }
   .btn-primary {
     width: 50%;
+  }
+  .num-text-typo {
+    color: #ffff;
+    position: relative;
+    top: -0.2rem;
   }
 }

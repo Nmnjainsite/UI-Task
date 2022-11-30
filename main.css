@@ -4,7 +4,7 @@
   letter-spacing: 0px;
   color: #2d83ee;
   opacity: 1;
-  padding: 1rem;
+  margin: 1rem;
 }
 
 .second {
@@ -170,7 +170,7 @@
   background: #2d83ee 0% 0% no-repeat padding-box;
   border-radius: 30px;
   opacity: 1;
-  margin: 1rem;
+  margin: 2rem;
   width: 70%;
 }
 .horizontal-img:nth-child(2) {
@@ -191,7 +191,7 @@
   font-size: 0.9rem;
   border: none;
   transition: 0.3s;
-  margin-top: 15%;
+  margin-top: 25%;
 }
 
 .apply-btn:hover {
@@ -395,5 +395,9 @@
   }
   .read-more-2 {
     left: 35%;
+  }
+
+  .path {
+    margin: 0rem;
   }
 }
